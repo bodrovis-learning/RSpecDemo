@@ -30,6 +30,7 @@ group :test do
   gem 'rspec-rails', '>= 3.5.0.beta3'
   gem 'database_cleaner'
   gem "factory_girl_rails", "~> 4.0"
+  gem 'rails-controller-testing'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
