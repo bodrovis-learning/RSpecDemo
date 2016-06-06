@@ -22,6 +22,8 @@ gem 'turbolinks', '~> 5.x'
 
 gem 'email_validator'
 
+gem 'bcrypt'
+
 group :development, :test do
   gem 'pry-rails'
 end
@@ -31,6 +33,8 @@ group :test do
   gem 'database_cleaner'
   gem "factory_girl_rails", "~> 4.0"
   gem 'rails-controller-testing'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
