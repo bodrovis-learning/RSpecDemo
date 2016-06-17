@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature 'Account interactions' do
+RSpec.feature 'Account interactions', js: true do
   context "registration" do
     scenario "works correctly" do
       visit root_path
