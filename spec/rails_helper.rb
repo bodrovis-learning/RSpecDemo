@@ -59,6 +59,10 @@ RSpec.configure do |config|
     Capybara::Selenium::Driver.new(app, :browser => :chrome)
   end
 
+  Capybara.register_driver :selenium do |app|
+    Capybara::Selenium::Driver.new(app, :browser => :chrome)
+  end
+
   Capybara.javascript_driver = :selenium_chrome
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
